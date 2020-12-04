@@ -21,8 +21,8 @@ describe RenderAsync do
     end
   end
 
-  describe '.configure' do
-    it 'set jquery value' do
+   describe '.configure' do
+   it 'sets jquery value' do
       RenderAsync.configure do |config|
         config.jquery = true
       end
